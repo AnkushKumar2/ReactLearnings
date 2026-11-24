@@ -27,6 +27,9 @@ This repository documents my React learning journey through hands-on projects an
 - Background Changer
 - Password Generator
 - Currency Converter
+- Theme Swicther
+- ToDo using Local Storage
+- ToDo using Redux Toolkit
  
 ## Tech Stack
  

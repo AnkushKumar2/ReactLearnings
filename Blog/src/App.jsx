@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react'
 import {useDispatch} from 'react-redux'
 import authService from './appwrite/auth'
 import {login,logout} from "./store/authSlice"
-import { header, footer } from './components/index'
+import { Header, Footer } from './components/index'
 
 import './App.css'
 
@@ -31,11 +31,11 @@ function App() {
       <div className='min-h-screen flex flex-wrap
       content-between bg-gray-400'>
         <div className='w-full block'>
-          <header/>
+          <Header/>
           <main>
             {/* <outlet/> */}
           </main>
-          <footer/>
+          <Footer/>
 
         </div>
       </div>):null

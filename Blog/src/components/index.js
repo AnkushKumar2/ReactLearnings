@@ -1,8 +1,13 @@
-import header from "./header";
-import footer from "./footer";
-
+import Header from "./header/header";
+import Footer from "./footer/Footer";
+import Container from "./container/Container";
+import Logo from "./logo";
+import LogoutBtn from "./header/LogoutBtn";
 
 export {
-    header,
-    footer
+    Header,
+    Footer,
+    Container,
+    Logo,
+    LogoutBtn
 };
